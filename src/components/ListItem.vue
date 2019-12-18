@@ -1,5 +1,10 @@
 <template>
   <article class="media box">
+    <div class="media-left score-box" v-if="show_score">
+      <p>
+        <span class="score">{{ score }}</span>
+      </p>
+    </div>
     <div class="media-content">
       <div class="content">
         <p>
@@ -13,6 +18,12 @@
   </article>
 </template>
 <style lang="stylus">
+  .score {
+    font-weight bold
+    background-color #fedf0e
+    padding 5px
+    border-radius 10px
+  }
 
   .score-box {
     padding-top 10px
