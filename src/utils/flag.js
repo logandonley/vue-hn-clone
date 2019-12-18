@@ -2,7 +2,6 @@ import Rox from 'rox-browser'
 import { betaAccess, isLoggedIn } from './users'
 
 export const Flags = {
-  score: new Rox.Flag(false),
   headerColor: new Rox.Variant('is-dark', ['is-dark', 'is-primary', 'is-white'])
 }
 
