@@ -20,7 +20,7 @@
 <style lang="stylus">
   .score {
     font-weight bold
-    background-color #4A4A4A
+    background-color #fedf0e
     padding 5px
     border-radius 10px
   }
