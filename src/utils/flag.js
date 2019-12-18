@@ -21,3 +21,4 @@ Rox.setCustomBooleanProperty('isLoggedIn', isLoggedIn())
 
 Rox.register('default', Flags)
 Rox.setup(process.env.VUE_APP_ROLLOUT_KEY, options)
+
